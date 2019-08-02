@@ -12,5 +12,3 @@ RUN apk add --update-cache bash \
 RUN mkdir /opt/homebridge
 ADD files/homebridge.tar.gz /opt/homebridge/
 WORKDIR /opt/homebridge
-
-ENTRYPOINT ["/bin/sh"]
