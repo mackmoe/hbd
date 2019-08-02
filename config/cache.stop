@@ -1,0 +1,8 @@
+#!/bin/sh
+
+
+# verify the local cache on shutdown
+apk cache -v sync
+
+# We should always return 0
+return 0
